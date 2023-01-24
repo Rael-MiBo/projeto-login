@@ -16,10 +16,59 @@ Grandes telas: acima de 1200px
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    body{
+    
+    body {
         background-image: linear-gradient( to top, #49a09d, #5f2c82 ) ;
         width: 100vw;
     }
+    section#login {
+        width: 85vw;
+        height: 300px;
+    }
+    
+    section div#imagem {
+        float: left;
+        width: 30%;
+        height: 110%;
+    }
+    
+    section div#formulario {
+        float: right;
+        width: 70%;
+    }
+    
+    div.campo input {
+        transform: translateY(-9px);
+        
+    }
+    
+}
 
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient( to top, #49a09d, #5f2c82 ) ;
+        width: 100vw;
+    }
+    
+    section#login {
+        width: 85vw;
+        height: 350px;
+    }
+
+    section div#imagem {
+        float: right;
+        width: 45%;
+        height: 110%;
+    }
+
+    section div#formulario {
+        float: left;
+        width: 55%;
+    }
+
+    div.campo input {
+        transform: translateY(-9px);
+        
+    }
 
 }
