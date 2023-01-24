@@ -11,6 +11,7 @@
 }
 
 html, body {
+    position: absolute;
     height: 100vh;
     width: 100vw;
     background-color: #5f2c82;
@@ -40,6 +41,7 @@ section#login {
     padding: 10px;
     margin: auto;
     height: 570px;
+    width: 315px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.609);
 
@@ -57,27 +59,33 @@ div#imagem {
     background: #4960a0 url(../imagens/imagens-media.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
-    height: 150px;
+    height: 190px;
     margin: -16px -16px -2px -16px;
 }
 
 div.campo {
     background-color: #5f2c82;
     padding: -9px;
-    margin: 10px;
+    height: 52px;
+    margin: 10px 1px 1px 1px;
     border-radius: 10px;
 }
 
 div.campo > span {
     color: white;
     /*background-color: black;*/
-    font-size: 1.9em;
-    width: 20px;
-    padding: 10px;
+    font-size: 2em;
+    width: 15px;
+    margin-top: 10px;
+    margin-right: 20px;
 }
 
 div > input {
-    height: 20px;
+    height: 15px;
+}
+
+div.botao {
+    margin: 10px 0px 15px 0px;
 }
 
 div.botao span {
@@ -91,14 +99,14 @@ div.botao span {
 
 div.campo input {
     background-color: #94cfcd;
-    /* font-size: 1em; */
-    width: calc(100% - 68px);
+    font-size: 1em;
+    width: calc(100% - 60px);
     height: 36px;
-    margin: -30px -5px 3px 3px;
-    border: 0px;
-    border-radius: 13px 13px 13px 13px;
+    margin: -20px -2px 2px 2px;
+    border: 1px solid #49a09d;
+    border-radius: 5px 8px 8px 5px;
     padding: 4px;
-    transform: translateY(-5px);
+    transform: translateY(-8px);
 }
 
 input.input {
@@ -106,8 +114,9 @@ input.input {
     display: block;
     font-size: 1em;
     width: 100%;
-    height: 40px;
+    height: 45px;
     padding: auto;
+    border: 1px solid #49a09d;
     border-radius: 60px;
     cursor: pointer;
 }
@@ -125,16 +134,15 @@ a.esqueci {
     text-align: center;
     font-size: 1em;
     width: 100%;
-    height: 40px;
+    height: 35px;
     padding-top: 5px;
     margin-top: 5px;
     background-color: white;
     color: #1d3f3e;
     border: 1px solid #49a09d;
     border-radius: 60px;
-    text-decoration: none;
 }
 
 a:hover {
-    background-color: #3e8784;
+    background-color: #6cd3cf;
 }
