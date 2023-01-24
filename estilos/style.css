@@ -5,3 +5,136 @@
     Verde: #49a09d
     Roxo: 5f2c82
 */
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #5f2c82;
+}
+
+p {
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    height: 570px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.609);
+
+    transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+
+form {
+    text-align: center;
+}
+
+div#imagem {
+    display: block;
+    background: #4960a0 url(../imagens/imagens-media.jpg) no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    height: 150px;
+    margin: -16px -16px -2px -16px;
+}
+
+div.campo {
+    background-color: #5f2c82;
+    padding: -9px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+div.campo > span {
+    color: white;
+    /*background-color: black;*/
+    font-size: 1.9em;
+    width: 20px;
+    padding: 10px;
+}
+
+div > input {
+    height: 20px;
+}
+
+div.botao span {
+    background-position: center cen;
+    color: rgb(0, 0, 0);
+    /*background-color: black;*/
+    font-size: 15px;
+    width: 40px;
+    padding: 10px 8px 22px 10px;
+}
+
+div.campo input {
+    background-color: #94cfcd;
+    /* font-size: 1em; */
+    width: calc(100% - 68px);
+    height: 36px;
+    margin: -30px -5px 3px 3px;
+    border: 0px;
+    border-radius: 13px 13px 13px 13px;
+    padding: 4px;
+    transform: translateY(-5px);
+}
+
+input.input {
+    background-color: #49a09d;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding: auto;
+    border-radius: 60px;
+    cursor: pointer;
+}
+input.input:hover{
+    background-color: #408987;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a.esqueci {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: white;
+    color: #1d3f3e;
+    border: 1px solid #49a09d;
+    border-radius: 60px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #3e8784;
+}

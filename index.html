@@ -5,20 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-                ft
+                
             </div>
             <div id="formulario">
-                <h1>login</h1>
+                <h1>Login</h1>
                 <p>seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
                 <form action="loguin.php" method="post" autocomplete="on">
-                    <label for="iemail"></label>
-                    <input type="email" name="email" id="iemail" required placeholder="seu e-mail">
+                    
+                    <div class="campo">
+                        <label for="iemail"></label>
+                        <span class="material-icons">person</span>
+                        <input type="email" name="email" id="iemail" required placeholder="seu e-mail">
+                    </div>
+                    
+                    <div class="campo">
+                        <span class="material-icons">key</span>
+                        <input type="password" name="pass" id="password" required placeholder="sua senha" minlength="8" maxlength="32">
+                    </div>
+                    
+                    <div class="botao">
+                        <input class="input" type="submit" value="Entrar">
+                        <a class="esqueci" href="esqueciasenha.html">
+                            Esqueci a senha
+                            <span class="material-icons">mail</span>
+                        </a>
+                    </div>
                 </form>
             </div>
         </section>
